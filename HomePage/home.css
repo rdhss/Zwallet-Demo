@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 100vw;
+    height: 600px;
+    background-color: white;
+    position: relative;
+}
+.judul h1{
+    margin-top:25px;
+    font-size: 29px;
+    color: #6379F4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    width: 100vw;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -1px -20px 40px 0px black;
+}
+.profile{
+    margin-right: 50px;
+    width: 330px;
+    height: 90px;
+    display: flex;
+}
+
+.judul{
+    margin-left: 140px;;
+    width: 90px;
+    height: 90px;
+}
+.foto{
+    margin-top: 20px;
+
+}
+
+.nama{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.nama h1{
+    margin: 5px 0px 0 2px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nama p{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}
+.bell{
+    margin-top: 32px;
+    margin-left: 10px;
+
+}
+.content{
+    width: 100vw;
+    height: 560px
+}
+.dashboard{
+    width: 290px;
+    height: 522px;
+    margin-left: 135px;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -10px black;
+    background-color: white;
+    position: absolute;
+}
+.saldo{
+    width: 727px;
+    height: 200px;
+    background-color: #6379F4;
+    position: relative;
+    left: 441px;
+    top: 30px;
+    border-radius: 20px;    
+}
+.grafik{
+    width: 402px;
+    height: 309px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -10px black;
+    background-color: white;
+    position: absolute;
+    left: 441px;
+    top: 335px;
+}
+.history{
+    width: 314px;
+    height: 313px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -10px black;
+    background-color: white;
+    position: relative;
+    left: 852px;
+    top: 41px;
+}
+
+.bawah{
+    position: absolute;
+    margin-top: 20px;
+    width: 100vw;
+    height: 65px;
+    background-color: #6379F4;
+}
