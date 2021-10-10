@@ -44,11 +44,13 @@ body{
     margin-top: 20px;
 }
 .nama h1{
+    color: #4D4B57;
     margin: 5px 0px 0 2px;
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nama p{
+    color: #7A7886;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 12px;
@@ -60,11 +62,11 @@ body{
 }
 .content{
     width: 100vw;
-    height: 560px
+    height: 630px
 }
 .dashboard{
     width: 290px;
-    height: 522px;
+    height: 586px;
     margin-left: 135px;
     margin-top: 30px;
     border-radius: 25px;
@@ -72,41 +74,157 @@ body{
     background-color: white;
     position: absolute;
 }
-.saldo{
-    width: 727px;
-    height: 522px;
+.Dashboard div{
+    position: absolute;
+    height: 25px;
+    border-left: 3px solid #6379F4;
+    margin-left: 20px;
+}
+.dashboard h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3A3D42;
+    margin-left: 90px;
+    margin-bottom: 40px;
+    margin-top: 55px;
+}
+.dashboard img{
+    left: 40px;
+    position: absolute;
+}
+.Logout {
+    position: absolute;
+    bottom: 0px;
+}
+.hai{
+    bottom: 35px;
+}
+.history {
+    width: 750px;
+    height: 586px;
     background-color: white;
     position: relative;
     left: 441px;
     top: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     border-radius: 20px;    
     box-shadow: 0px 0px 20px -10px black;
 }
-.grafik{
-    width: 402px;
-    height: 309px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 20px -10px black;
-    background-color: white;
-    position: absolute;
-    left: 441px;
-    top: 335px;
+.head h2{
+    padding-left: 60px;
+    padding-top: 30px;
+    color: #3A3D42;
 }
-.history{
-    width: 314px;
-    height: 313px;
-    border-radius: 25px;
-    box-shadow: 0px 0px 20px -10px black;
-    background-color: white;
-    position: relative;
-    left: 852px;
-    top: 41px;
+.head p{
+    margin-left: 60px;
+    margin-top: 40px;
+    color: #7A7886;
+}
+.samuel{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+.text{
+    flex: 2
+}
+.text h3{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 30px;
+    margin: 0px;
+    color: #4D4B57;
+}
+.text p{
+    font-size: 10px;
+    padding-left: 30px;
+    color: #7A7886;
+}
+.duit{
+    padding-right: 40px;
+    font-size: 18px;
+}
+.netflix{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+.netflix .text{
+    flex: 2
+}
+.netflix .text h3{
+    padding-top: 5px;
+    padding-left: 30px;
+    margin: 0px;
+    color: #4D4B57;
+}
+.netflix .text p{
+    padding-left: 30px;
+    color: #7A7886;
+}
+.month p{
+    color: #7A7886;
+    padding-left: 60px;
+    padding-top: 10px
+}
+.cristine{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+.cristine .text{
+    flex: 2
+}
+.cristine .text h3{
+    padding-top: 5px;
+    padding-left: 30px;
+    margin: 0px;
+    color: #4D4B57;
+}
+.cristine .text p{
+    padding-left: 30px;
+    color: #7A7886;
+}
+.adobe{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.adobe .text{
+    flex: 2
+}
+.adobe .text h3{
+    padding-top: 5px;
+    padding-left: 30px;
+    margin: 0px;
+    color: #4D4B57;
+}
+.adobe .text p{
+    padding-left: 30px;
+    color: #7A7886;
 }
 
 .bawah{
     position: absolute;
+    color: white;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 20px;
     width: 100vw;
     height: 65px;
     background-color: #6379F4;
+    display: flex;
+    justify-content: space-between;
+}
+.kiri{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.kanan{
+    display: flex;
+    margin-right: 80px;
+    margin-top:10px;
+}
+.no{
+    margin-right: 40px;
 }

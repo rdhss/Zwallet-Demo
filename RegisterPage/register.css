@@ -70,7 +70,12 @@ body{
 .input{
     margin-top: 50px;
 }
-
+.input img{
+    position: absolute;
+}
+.eye{
+    right: 60px;
+}
 .email{
         padding-left: 50px;
         padding-bottom: 10px;

@@ -3,7 +3,7 @@ body{
 }
 .main{
     height: 961px;
-    width: 1440px;
+    width: 1320px;
     background-color: darkolivegreen;
 }
 .container{
@@ -70,8 +70,15 @@ body{
 .input{
     margin-top: 50px;
 }
+.input img{
+    position: absolute;
+}
+.eye{
+    right: 60px;
+}
 
 .email{
+        padding-left: 40px;
         width: 400px;
         outline: none;
         height: 30px;
@@ -83,6 +90,7 @@ body{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .pass{
+        padding-left: 40px;
         width: 400px;
         outline: none;
         height: 30px;
