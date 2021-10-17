@@ -68,7 +68,7 @@ body{
     width: 290px;
     height: 700px;
     margin-left: 135px;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 25px;
     box-shadow: 0px 0px 20px -10px black;
     background-color: white;
@@ -105,11 +105,28 @@ body{
     background-color: white;
     position: relative;
     left: 441px;
-    top: 30px;
+    top: 10px;
     border-radius: 20px;    
     box-shadow: 0px 0px 20px -10px black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: gerak;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.83, 0.17, 0.26, 0.96);;
+    animation-direction: alternate;
 }
+
+@keyframes gerak {
+    0%{
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 100%;
+    }
+}
+
 .head h2{
     padding-left: 40px;
     padding-top: 30px;
@@ -166,6 +183,11 @@ body{
     width: 100%;
     opacity: 60%;
 }
+
+.duit:focus{
+    color:#6379F4 ;
+}
+
 .nominal{
     font-weight: bold;
     margin-top: 20px;
@@ -191,7 +213,15 @@ body{
     border-right: 0px;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url("png/Vector.png") no-repeat;
 }
+
+.email:focus{
+    border-bottom: 2px solid #6379F4;
+    background: url("png/Vector2.png") no-repeat;
+    
+}
+
 
 .but{
     display: flex;
@@ -203,7 +233,7 @@ body{
     width: 25%;
     height: 57px;
     border: none;
-    background-color: #DADADA;
+    background-color: #6379F4;
     color: #88888F;
     border-radius: 12px;
     padding: 15px 32px;
@@ -213,7 +243,17 @@ body{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: 300ms;
 }
+.button:hover{
+    background-color: #6379F4 ;
+    color: white;
+}
+.button:active{
+    box-shadow: 0 0 0 0.25rem rgb(108 117 125 / 50%);
+}
+
+
 .bawah{
     position: absolute;
     color: white;

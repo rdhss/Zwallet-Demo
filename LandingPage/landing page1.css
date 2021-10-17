@@ -29,7 +29,24 @@ body{
     width: 70%;
     height: 100%;
     background-color: white;
+    animation-name: gerak;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function:linear;
+    animation-direction: alternate;
 }
+
+@keyframes gerak {
+    0%{
+        transform: translate(-50px, 0);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 100%;
+    }
+}
+
 .header1 h3{
     margin-top: 10%;
     font-size: 26px;
@@ -64,6 +81,10 @@ body{
     font-size: 16px;    
     cursor: pointer;
 }
+.header1 button:active {
+    box-shadow: 0 0 0 0.25rem rgb(108 117 125 / 50%);
+}
+
 .sudut{
     width: 100%;
     height: 60%;
@@ -94,6 +115,9 @@ body{
     width: 140px;
     cursor: pointer;
 }
+.tombol button:active{
+    box-shadow: 0 0 0 0.25rem rgb(255,255,255,0.5);
+}
 .gambar-hp{
     position: relative;
     width: 100%;
@@ -102,6 +126,22 @@ body{
 }
 .gambar-hp img{
     margin-left: 85px;
+    animation-name: gerak2;
+    animation-duration: 500ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-direction:alternate;
+}
+
+@keyframes gerak2 {
+    0%{
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0, 0);
+        opacity: 100%;
+    }
 }
 
 /*----------- page 2 ------------ */
@@ -146,8 +186,13 @@ body{
     width: 30%;
     height: 115%;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 25px;
-    
+    border-radius: 25px;  
+    transition: 300ms;
+}
+.box1:hover {
+    transform: scale(1.05);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .isi{
     margin: auto;
@@ -230,12 +275,14 @@ body{
     background-color: rgba(71, 58, 209, 0.06);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .box4{
     width: 80%;
     height: 100%;
     margin: auto;
     display: flex;
 }
+
 .text4{
     width: 100%;
     margin-top: 60px;
@@ -253,6 +300,10 @@ body{
     border-radius: 15px;
     background-color:white;
     margin-top: 40px;
+    transition: 300ms;
+}
+.box4-semi:hover{
+    transform: scale(1.05);
 }
 .box4-semi h3{
     padding-top: 22px;
@@ -311,6 +362,13 @@ body{
     height: 100%;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
+    transition: 300ms;
+}
+
+.box9:hover {
+    transform: scale(1.05);
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .isi5{
     padding-top: 50px;
