@@ -1,34 +1,37 @@
+@import url("https://fonts.google.com/specimen/Nunito+Sans"); 
+ 
+
+
 body{
-    margin: 0;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 main{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-color: blue;
     display: flex;
 }
-.a{
-    width: 60%;
+/* --------------------- left---------------------- */
+.left{
+    width: 59%;
     height: 145vh;
-    background-color:#6379F4;
-    overflow: hidden;
+    background: url("png/background-left.svg");
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
 }
-.svg{
-    width: 100%;
-    height: 145vh;
-    overflow: hidden;
-}
-.foto{
-    position: relative;
-    bottom: 100%;
-    left: 15%;
-    animation-name: gerak;
+.info{
+    margin-top: 5%;
+    color: white;
+    animation-name: fade-left;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.83, 0.17, 0.26, 0.96);;
     animation-direction: alternate;
 }
-@keyframes gerak {
+
+@keyframes fade-left {
     0%{
         transform: translate(-100px, 0);
         opacity: 0;
@@ -39,55 +42,61 @@ main{
     }
 }
 
-.hp1 img{
-    padding-right: 40%;
-}
-.zwallet h2{
-    font-size: 29px;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.app h2{
-    font-size: 29px;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.outro p{
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 25px;
-}
 
 
-/* ---------------------- section b ---------------------- */
-.b{
-    width: 40%;
-    height: 145vh;
+
+/* --------------------------riight----------------- */
+.right{
+    width: 41%;
+    height: 100vh;
     background-color: white;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.9);
 }
-
 .portal{
-    width: 85%;
-    height: 100vh;
-    padding-top: 13%;
+    width: 80%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
 }
-.start{
+header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    line-height: 36.74px
+    line-height: 36.74px;
+
 }
-.transfer{
+.semi-head{
     margin-top: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#3A3D4299;
-    line-height: 30px
+    line-height: 30px;
 }
 .input{
     padding-top: 20px;
     margin-top: 50px;
 }
+.user:focus{
+    border-bottom: 2px solid #6379F4;
+    background: url("png/person2.png") no-repeat;
+}
+.user{
+        padding-left: 40px;
+        width: 420px;
+        outline: none;
+        height: 30px;
+        border-bottom: 2px solid #A9A9A9;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: url("png/person.png") no-repeat;
+        transition: 300ms;
+
+}
+
 .email:focus {
     border-bottom: 2px solid #6379F4;
     background: url("png/mail2.png") no-repeat;
@@ -99,27 +108,9 @@ main{
     right: 40px;
 }
 
-.userr{
-    padding-left: 40px;
-    width: 360px;
-    outline: none;
-    height: 30px;
-    border-bottom: 2px solid #A9A9A9;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: url("png/person.png") no-repeat;
-    transition: 300ms;
-}
-.userr:focus{
-    border-bottom: 2px solid #6379F4;
-    background: url("png/person2.png") no-repeat;
-}
 .email{
         padding-left: 40px;
-        width: 360px;
+        width: 420px;
         outline: none;
         height: 30px;
         border-bottom: 2px solid #A9A9A9;
@@ -137,7 +128,7 @@ main{
 }
 .pass{
         padding-left: 40px;
-        width: 360px;
+        width: 420px;
         outline: none;
         height: 30px;
         border-bottom: 2px solid #A9A9A9;
