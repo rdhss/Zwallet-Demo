@@ -57,6 +57,10 @@ p.number{
     margin: 0;
     color: #7A7886;
 }
+.bar-mobile{
+    display: none;
+}
+
 /* ---------------------------- main----------------------- */
 
 main{
@@ -178,6 +182,10 @@ section .a{
     color: #3A3D42;
 }
 
+.search-head-mobile{
+    display: none;
+}
+
 .search-bar{
     width: 100%;
     height: 10%;
@@ -264,6 +272,10 @@ section .a{
 
 }
 
+.button1{
+    display: none;
+}
+
 .semi-button1{
     margin-right: 15px;
     background: url("png/share-2.png") no-repeat;
@@ -305,6 +317,9 @@ section .a{
     transition: 300ms;
 }
 
+.strip{
+    display: none;
+}
 /* ----------------------------------- footer ---------------------- */
 
 footer{
@@ -315,7 +330,7 @@ footer{
     display: flex;
     justify-content: center;
     font-size: 13px;
-    margin-top: 294px;
+    margin-top: 335px;
 }
 .footer1{
     width: 80%;

@@ -20,6 +20,14 @@ header{
     justify-content: center;
 
 }
+
+.bar-mobile{
+    display: none;
+}
+.profile2{
+    display: none;
+}
+
 .head1{
     width: 80%;
     height: 100%;
@@ -177,6 +185,12 @@ section .a{
     display: flex;
     margin-top: 15px;
 }
+
+.user-mobile{
+    display: none;
+}
+
+
 .user h3{
     font-size: 15px;
     color: #4D4B57;
@@ -195,7 +209,12 @@ section .a{
     padding-left: 20px;
     flex: 2;
 }
-
+form{
+    display: none;
+}
+.strip{
+    display: none;
+}
 
 
 /* ----------------------------------- footer ---------------------- */

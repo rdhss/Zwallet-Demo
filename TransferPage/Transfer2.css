@@ -57,6 +57,13 @@ p.number{
     margin: 0;
     color: #7A7886;
 }
+
+.bar-mobile, .profile2{
+    display: none;
+}
+.strip{
+    display: none;
+}
 /* ---------------------------- main----------------------- */
 
 main{
@@ -256,6 +263,14 @@ section .a{
     border-bottom: 2px solid #6379F4;
     background: url("png/Vector2.png") no-repeat;
     
+}
+
+.keyboard{
+    display: none
+}
+
+.mobile-form{
+    display: none;
 }
 
 .button{

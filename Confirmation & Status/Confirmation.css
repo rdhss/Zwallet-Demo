@@ -57,6 +57,11 @@ p.number{
     margin: 0;
     color: #7A7886;
 }
+
+.profile2, .bar-mobile{
+    display: none;
+}
+
 /* ---------------------------- main----------------------- */
 
 main{
@@ -172,6 +177,10 @@ section .a{
 .search-head{
     color: #3A3D42;
 }
+.search-head-mobile{
+    display: none;
+    color: #3A3D42;
+}
 
 .search-bar{
     width: 100%;
@@ -258,6 +267,10 @@ section .a{
     margin-top: 60px;
 
 }
+
+.button1{
+    display: none;
+}
 .continue{
     width: 25%;
     height: 57px;
@@ -273,6 +286,10 @@ section .a{
     margin: 4px 2px;
     cursor: pointer;
     transition: 300ms;
+}
+
+.strip{
+    display: none;
 }
 
 /* ----------------------------------- footer ---------------------- */

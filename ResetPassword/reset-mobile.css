@@ -1,0 +1,92 @@
+.screen{
+    display: block;
+    position: absolute;
+}
+.left{
+    display: none;
+
+}
+.right{
+    width: 100%;
+    transform: scale(1);
+    background-color: #E5E5E5;
+    display: block;
+}
+.bar-mobile{
+    display: block;
+}
+
+header{
+    display: none;
+}
+.semi-head{
+    display: none;
+}
+.portal{
+    width: 100%;
+    margin-top: 55px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 75px rgba(155, 155, 155, 0.15);
+    border-radius: 40px 40px 0 0;
+    animation-name: pull-out;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.83, 0.17, 0.26, 0.96);
+    animation-direction: alternate;
+}
+    @keyframes pull-out {
+        0%{
+            transform: translate(0, 100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translate(0, 0);
+            opacity: 100%;
+        }
+    } 
+
+.email, .pass, .user{
+    width: 87%;
+}
+.input {
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.button{
+    width: 100%;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    margin-top: 265px;
+}
+form{
+    padding: 0 33px 0 33px;
+}
+.zwallet-mobile{
+    display: block;
+    padding-top: 10%;
+}
+.zwallet-mobile h2{
+    font-size: 30px;
+    text-align: center;
+    color: #6379F4;
+}
+.head-mobile{
+    display: block;
+    text-align: center;
+}
+h2.head-mobile{
+    margin-top: 40px;
+    color: #4D4B57;
+}
+p.head-mobile{
+    color: #3A3D42;
+    line-height: 26px;
+}
+
+.strip{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

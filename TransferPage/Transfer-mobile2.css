@@ -1,0 +1,380 @@
+main{
+    background-color: #FAFCFF;
+    align-items: flex-start;
+}
+.content{
+    width: 100%;
+}
+.container{
+    height: 108vh;
+}
+
+header{
+    height: 18vh;
+    border-radius: 0;
+    background-color:#FAFCFF;;
+}
+
+.bar-mobile{
+    display: block;
+}
+
+aside{
+    display: none;
+}
+.b-1{
+    display: none;
+}
+.b-0{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+.graphic h3{
+    font-size: 15px;
+    color: #4D4B57;
+    padding-left: 20px;
+}
+section .b .b-2{
+    width: 100%;
+    box-shadow: none;
+    background-color: #FAFCFF;
+}
+.mobile-form{
+    display: block;
+    width: 314px;
+    height: 175px;
+    overflow: hidden;
+}
+div.b{
+    display: block;
+}
+.right{
+    display: none;
+}
+section{
+    width: 100%;
+    justify-content: start;
+}
+section .a{
+    height: 18%;
+    width: 93%;
+    margin-left: 13px;
+    border-radius: 0;
+    background-color: #FAFCFF;
+}
+.left h2{
+    font-size: 23px;
+}
+.left p{
+    font-size: 13px;
+}
+footer{
+    display: none;
+}
+
+.zwallet{
+    display: none;
+}
+.head1{
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+.name-number{
+    display: none;
+    height: 50%;
+}
+p.number {
+    padding-top: 0px;
+}
+h3.name {
+    margin-top: 8px;
+}
+.profile{
+    width: 100%;
+    height: 80%;
+    justify-content:start;
+    display:none
+}
+.profile2{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content:start;
+}
+
+.comparasion h2{
+    font-size: 15px;
+    color: white;
+}
+.comparasion p{
+    font-size: 13px;
+    margin: 0%;
+    color: white;
+}
+
+.photo{
+    flex: 1;
+    padding-left: 17px;
+    padding-top: 7px;
+}
+.name-number-mobile{
+    display: block;
+    flex: 5;
+}
+.bell-icon{
+    flex: 1;
+}
+.button1, .button2{
+    color: #4D4B57;
+    background-color: #EAEDFF;
+    border-radius: 10px;
+}
+
+.button1{
+    margin-left: 20px;
+}
+
+.button2{
+    margin-right: 20px;
+}
+
+
+button{
+    color: #4D4B57;
+    border: none;
+    margin-top: 5px;
+}
+.history-head{
+    width: 100%;
+    padding: 0 15px 0 15px;
+}
+
+.user{
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 10px;
+}
+
+.user-margin{
+    margin-top: 20px;
+}
+.user-margin2{
+    margin-top: 20px;
+}
+
+.user-gone{
+    display: none;
+}
+
+.user-mobile{
+    display: flex;
+}
+.user-gone{
+    display: none;
+}
+.info{
+    display: none;
+}
+.amount-mobile{
+    font-size: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    color: black;
+    width: 100%;
+    opacity: 60%;
+    outline: none;
+    margin-top: 15px;
+}
+.balance-mobile{
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-notes-mobile{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.notes{
+    width: 80%;
+}
+
+.amount:focus{
+    color:#6379F4 ;
+}
+
+.notes:focus{
+    border-bottom: 2px solid #6379F4;
+    background: url("png/Vector2.png") no-repeat;
+    
+}
+.keyboard{
+    display: block;
+    background: url("png/keyboard-numeric.png");
+    width: 300px;
+    height: 400px;
+    background-position: 50% 0%;
+}
+
+
+.this-month{
+    margin-top: 45px;
+}
+.this-week{
+    margin-top: 0;
+}
+.transfer-head{
+    display: none;
+}
+.strip{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button{
+    display: none;
+}
+.semi-button1{
+    margin-right: 0px;
+    background: url("png/share-2.png") no-repeat;
+    background-position: 20px 16px;
+}
+
+.semi-button1 button{
+    width: 25px;
+    background-color: rgba(99, 121, 244, 0.15);
+}
+
+.semi-button2{
+    margin-right: 0px;
+    background: url("png/download.png") no-repeat;
+    background-position: 20px 16px;
+}
+
+.semi-button2 button{
+    width: 200px;
+    background-color: rgba(99, 121, 244, 0.15);
+    color: #6379F4;
+}
+.continue1{
+    width: 10px;
+    height: 50px;
+    border: none;
+    background: url("png/arrow-up-red.png") no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(99, 121, 244, 0.15);
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 300ms;
+}
+.continue2{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: url("png/arrow-down-green.png") no-repeat;
+    background-position: 50% 50%;
+    background-color: rgba(99, 121, 244, 0.15);
+    color: white;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.continue3{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #6379F4;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.continue1:hover{
+    background: url("png/arrow-up-white.png") no-repeat;
+    background-position: 50% 50%;
+    background-color: #6379F4;
+}
+.continue2:hover{
+    background: url("png/arrow-down\ white.png") no-repeat;
+    background-position: 50% 50%;
+    background-color: #6379F4;
+}
+.continue3:hover{
+    color: white;
+    background-color: #6379F4;
+}
+.search-head{
+    display: none;
+}
+
+.user-list-mobile{
+    display: flex;
+    justify-content: center;
+}
+
+.user-list-mobile2{
+    display: block;
+}
+
+.user-mobile{
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+.user-mobile .photo-user{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.name-info-mobile h3{
+    color: #4D4B57;
+    text-align: center;
+}
+.name-info-mobile p{
+    color: #7A7886;
+    text-align: center;
+    font-size: 13px;
+}
+
+.search-head-mobile{
+    display: block;
+    color: #3A3D42;
+}
+
+.search-bar{
+    width: 90%;
+    height: 55%;
+}
+.strip{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
