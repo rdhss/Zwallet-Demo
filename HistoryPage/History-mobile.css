@@ -269,17 +269,17 @@ button{
     transition: 300ms;
 }
 
-.continue1:hover{
+.continue1:active{
     background: url("png/arrow-up-white.png") no-repeat;
     background-position: 50% 50%;
     background-color: #6379F4;
 }
-.continue2:hover{
+.continue2:active{
     background: url("png/arrow-down\ white.png") no-repeat;
     background-position: 50% 50%;
     background-color: #6379F4;
 }
-.continue3:hover{
+.continue3:active{
     color: white;
     background-color: #6379F4;
 }
