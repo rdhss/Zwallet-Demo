@@ -1,0 +1,157 @@
+.container1{
+    width: 100%;
+    height: 130vh;
+    background-color: #E5E5E5;
+}
+
+/* --------------------------------- HEADER ----------------------------------*/
+
+header{
+    height: 12%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 25px 25px;
+}
+
+
+
+
+
+
+/* --------------------------------- MAIN ----------------------------------*/
+
+section{
+    width: 68%;
+}
+.b{
+    height: 68%;
+}
+aside, .a, .b-1, .b-2{
+    border-radius: 25px;
+}
+
+.b-1{
+    width: 58%;
+}
+
+.b-2{
+    width: 41%;
+}
+
+aside, .b-1, .b-2{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.a{
+    background-color: white;
+}
+
+nav h5{
+    text-align: start;
+}
+
+.nav1, .nav2, .nav3, .nav4, .nav5{
+    border-left: 8px solid white;
+} 
+
+.nav1{
+    background: url("../image/grid.png") 20% 45% no-repeat;
+    border-left: 8px solid #6379F4;
+    color: #6379F4;
+}
+
+.nav2{
+    background: url("../image/arrow-up.png") 20% 45% no-repeat;
+}
+
+.nav3{
+    background: url("../image/plus.png") 20% 45% no-repeat;
+}
+
+.nav4{
+    background: url("../image/user.png") 20% 45% no-repeat;
+}
+
+.nav5{
+    background: url("../image/log-out.png") 20% 45% no-repeat;
+}
+
+.btn1, .btn2, .btn3{
+    color: white;
+    border-radius: 10px;
+}
+
+.btn1{
+    background: url("../image/arrow-up-blue2.png") 10% 50% no-repeat, rgba(255, 255, 255, 0.2);
+}
+
+.btn2{
+    background: url("../image/plus\ -blue.png") 10% 50% no-repeat, rgba(255, 255, 255, 0.2);
+}
+
+.btn1:active{
+    background: url("../image/arrow-down\ white.png") 50% 50% no-repeat, #6379F4;
+    color: white;
+}
+.btn2:active{
+    background: url("../image/arrow-up-white.png") 50% 50% no-repeat, #6379F4;
+    color: white;
+}
+.btn3:active{
+    background-color: #6379F4;
+    color: white;
+}
+
+
+
+/* --------------------------------- FOOTER ----------------------------------*/
+
+footer{
+    height: 7%;
+}
+
+
+
+/* -------------------------------- MOBILE --------------------------------------- */
+
+
+@media screen and (max-width: 768px) {
+    
+    .container1{
+        background-color: white;
+        height: 100vh;
+    }
+
+    /* footer */
+    header{
+        border-radius: 0 0 0 0;
+    }
+
+    /* main */
+    .a{
+        height: 13%;
+    }
+
+    .btn1, .btn2{
+        text-align: start !important;
+        color: #4D4B57;
+        border-radius: 10px;
+        padding-left: 15%;
+    }
+
+    .btn1{
+        background: url("../image/arrow-down-green.png") 50% 50% no-repeat, rgb(122, 120, 134, 0.2);
+    }
+    
+    .btn2{
+        background: url("../image/arrow-up-red.png") 50% 50% no-repeat, rgb(122, 120, 134, 0.2);
+    }
+
+    .btn3{
+        color: #6379F4;
+        background: rgb(122, 120, 134, 0.2);
+    }
+
+    .b-2{
+        background: url("../image/Rectangle\ 24.png") 50% 55% no-repeat;
+    }
+}
