@@ -105,3 +105,44 @@ nav h5{
 footer{
     height: 7%;
 }
+
+
+
+/* -------------------------------- MOBILE --------------------------------------- */
+
+
+@media screen and (max-width: 768px) {
+    
+    .container1{
+        background-color: white;
+    }
+
+    /* footer */
+    header{
+        border-radius: 0 0 0 0;
+    }
+
+    /* main */
+    .a{
+        height: 13%;
+    }
+
+    .btn1, .btn2{
+        text-align: start !important;
+        color: #4D4B57;
+        border-radius: 10px;
+        padding-left: 15%;
+    }
+
+    .btn1{
+        background: url("../image/arrow-up-blue2.png") 10% 50% no-repeat, rgb(122, 120, 134, 0.2);
+    }
+    
+    .btn2{
+        background: url("../image/plus\ -blue.png") 10% 50% no-repeat, rgb(122, 120, 134, 0.2);
+    }
+
+    .b-2{
+        background: url("../image/Rectangle\ 24.png") 50% 55% no-repeat;
+    }
+}
