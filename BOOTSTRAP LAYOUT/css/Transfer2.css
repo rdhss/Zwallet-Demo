@@ -1,0 +1,161 @@
+.container1{
+    width: 100%;
+    height: 130vh;
+    background-color: #E5E5E5;
+}
+
+/* --------------------------------- HEADER ----------------------------------*/
+
+header{
+    height: 12%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 25px 25px;
+}
+
+
+
+
+
+
+/* --------------------------------- MAIN ----------------------------------*/
+
+section{
+    width: 68%;
+}
+.b{
+    height: 68%;
+}
+aside, .a, .b-1, .b-2{
+    border-radius: 25px;
+}
+
+.b-1{
+    width: 58%;
+}
+
+.b-2{
+    width: 41%;
+}
+
+aside, .b-1, .b-2{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.a{
+    background-color: white;
+}
+
+.amount{
+    border: none;
+    outline: none;
+    font-size: 45px;
+    text-align: center;
+    opacity: 60%;
+}
+
+.email{
+    padding-left: 16%;
+    padding-bottom: 1%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #A9A9A9;
+    background: url("../image/Vector.png") 2% 20% no-repeat;
+}
+
+.btn1{
+    background-color: #6379F4;
+    border: none;
+    color: white;
+    border-radius: 12px;
+}
+
+nav h5{
+    text-align: start;
+}
+
+.nav1, .nav2, .nav3, .nav4, .nav5{
+    border-left: 8px solid white;
+} 
+
+.nav1{
+    background: url("../image/grid2.png") 20% 45% no-repeat;
+}
+
+.nav2{
+    background: url("../image/arrow-up-blue.png") 20% 45% no-repeat;
+    border-left: 8px solid #6379F4;
+    color: #6379F4;
+}
+
+.nav3{
+    background: url("../image/plus.png") 20% 45% no-repeat;
+}
+
+.nav4{
+    background: url("../image/user.png") 20% 45% no-repeat;
+}
+
+.nav5{
+    background: url("../image/log-out.png") 20% 45% no-repeat;
+}
+
+
+
+
+
+/* --------------------------------- FOOTER ----------------------------------*/
+
+footer{
+    height: 7%;
+}
+
+
+
+/* -------------------------------- MOBILE --------------------------------------- */
+
+
+@media screen and (max-width: 768px) {
+    
+    .container1{
+        background-color: white;
+        height: 90vh;
+    }
+
+    /* footer */
+    header{
+        border-radius: 0 0 0 0;
+    }
+
+    /* main */
+    .a{
+        height: 13%;
+    }
+
+    .btn1, .btn2{
+        
+        color: #4D4B57;
+        border-radius: 10px;
+        padding-left: 15%;
+    }
+
+    .btn1{
+        background: url("../image/arrow-down-green.png") 50% 50% no-repeat, rgb(122, 120, 134, 0.2);
+    }
+    
+    .btn2{
+        background: url("../image/arrow-up-red.png") 50% 50% no-repeat, rgb(122, 120, 134, 0.2);
+    }
+
+    .btn3{
+        color: #6379F4;
+        background: rgb(122, 120, 134, 0.2);
+    }
+
+    .b-2{
+        background: url("../image/Rectangle\ 24.png") 50% 55% no-repeat;
+    }
+
+    .a-content{
+        background: url("../image/Rectangle\ 24.png") 50% 100%  no-repeat;
+    }
+}
