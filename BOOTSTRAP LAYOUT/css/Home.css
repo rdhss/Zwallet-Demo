@@ -4,6 +4,7 @@
     background-color: #E5E5E5;
 }
 
+
 /* --------------------------------- HEADER ----------------------------------*/
 
 header{
@@ -22,11 +23,35 @@ header{
 section{
     width: 68%;
 }
+
+.main-content{
+    animation-name: fade-up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.83, 0.17, 0.26, 0.96);
+    animation-direction: alternate;
+}
+
+@keyframes fade-up {
+    0% {
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 100%;
+    }
+}
+
 .b{
     height: 68%;
 }
 aside, .a, .b-1, .b-2{
     border-radius: 25px;
+}
+
+aside{
+    color: #3A3D42;
 }
 
 .b-1{
@@ -39,6 +64,14 @@ aside, .a, .b-1, .b-2{
 
 aside, .b-1, .b-2{
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.b-1, .b-2{
+   color: #7A7886;
+}
+
+h6{
+    color: #3A3D42;
 }
 
 .a{
@@ -106,6 +139,10 @@ footer{
     height: 7%;
 }
 
+.left-foot h6, .right-foot h6{
+    color: white !important;
+}
+
 
 
 /* -------------------------------- MOBILE --------------------------------------- */
@@ -120,6 +157,7 @@ footer{
     /* footer */
     header{
         border-radius: 0 0 0 0;
+        box-shadow: none;
     }
 
     /* main */
@@ -127,6 +165,33 @@ footer{
         height: 13%;
     }
 
+    .a-mobile, .left, .b-2{
+        box-shadow: none;
+        animation-name: fade-up;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.83, 0.17, 0.26, 0.96);
+        animation-direction: alternate;
+    }
+    
+    @keyframes fade-up {
+        0% {
+            transform: translate(0, 50px);
+            opacity: 0;
+        }
+        100% {
+            transform: translate(0, 0);
+            opacity: 100%;
+        }
+    }
+
+    .user{
+        border-radius: 20px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        transition: 200ms;
+    }
+
+    
     .btn1, .btn2{
         text-align: start !important;
         color: #4D4B57;

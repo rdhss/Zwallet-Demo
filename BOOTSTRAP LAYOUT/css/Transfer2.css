@@ -29,6 +29,19 @@ aside, .a, .b-1, .b-2{
     border-radius: 25px;
 }
 
+aside{
+    color: #3A3D42;
+}
+
+.a h6, .a h5{
+    color: #3A3D42;
+}
+
+.a p, .a h7{
+    color: #7A7886;
+}
+
+
 .b-1{
     width: 58%;
 }
@@ -43,6 +56,22 @@ aside, .b-1, .b-2{
 
 .a{
     background-color: white;
+    animation-name: fade-up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.83, 0.17, 0.26, 0.96);
+    animation-direction: alternate;
+}
+
+@keyframes fade-up {
+    0% {
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 100%;
+    }
 }
 
 .amount{
@@ -60,6 +89,11 @@ aside, .b-1, .b-2{
     border: none;
     border-bottom: 2px solid #A9A9A9;
     background: url("../image/Vector.png") 2% 20% no-repeat;
+}
+
+.email:focus{
+    border-bottom: 2px solid #6379F4;
+    background: url("../image/Vector2.png") 2% 20% no-repeat;
 }
 
 .btn1{
@@ -124,6 +158,7 @@ footer{
     /* footer */
     header{
         border-radius: 0 0 0 0;
+        box-shadow: none;
     }
 
     /* main */

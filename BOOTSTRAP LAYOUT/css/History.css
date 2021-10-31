@@ -29,6 +29,10 @@ aside, .a, .b-1, .b-2{
     border-radius: 25px;
 }
 
+aside{
+    color: #3A3D42;
+}
+
 .b-1{
     width: 58%;
 }
@@ -43,7 +47,33 @@ aside, .b-1, .b-2{
 
 .a{
     background-color: white;
+    animation-name: fade-up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.83, 0.17, 0.26, 0.96);
+    animation-direction: alternate;
+    
 }
+
+.a h6, .a h5{
+    color: #3A3D42;
+}
+
+.a p, .a h7{
+    color: #7A7886;
+}
+
+@keyframes fade-up {
+    0% {
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 100%;
+    }
+}
+
 
 nav h5{
     text-align: start;
@@ -124,11 +154,18 @@ footer{
     /* footer */
     header{
         border-radius: 0 0 0 0;
+        box-shadow: none;
     }
 
     /* main */
     .a{
         height: 13%;
+    }
+
+    .user{
+        border-radius: 20px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        transition: 200ms;
     }
 
     .btn1, .btn2{
